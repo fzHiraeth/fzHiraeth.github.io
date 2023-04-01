@@ -4,12 +4,49 @@
   
   
   <entry>
+    <title>Github+HEXO部署个人博客教程（更新中）</title>
+    <link href="/posts/429336228.html"/>
+    <url>/posts/429336228.html</url>
+    
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p style="text-indent:2em">笔者选择github+hexo的方式建设个人博客出于两方面的考虑，成本以及功能。<p style="text-indent:2em">Wordpress、Typecho之类的建站工具维护的成本比较高，还需要额外购买服务器和域名，而github部署的网页完全免费。<p style="text-indent:2em">功能方面woedpress、Typecho是动态博客，能够在网页上实时更新，有单独的云数据库。然而它大部分功能超出了笔者的需要，为尝试各种功能花费精力而忽略了写作本身，实属舍本逐末。对于必要的文章排版、合集、tag分类、阅读量统计及评论互动功能，Hexo部署的静态网页加上外接的插件也足以完成，以个人博客的访问量完全不需要数据库管理。而文章实时更新功能，以笔者的更新频率，也是可以省略的。<p style="text-indent:2em">作为小白第一次建站，笔者计划是先做一个低成本的尝试。如果能够长期坚持下去，需要功能更加全面的个人站，会考虑花费一定的成本迁移新域名。<p style="text-indent:2em">在自学过程中，笔者主要依靠的是CSDN社区中的攻略，以及使用ChatGPT进行代码细节方面的辅助。其中遇见的诸多问题，也会在本合集之中一一讲述，希望能帮助后来者少走弯路。<h1 id="基础概念介绍"><a href="#基础概念介绍" class="headerlink" title="基础概念介绍"></a>基础概念介绍</h1><p style="text-indent:2em">通俗而言，想要建设个人博客并且让人们可以访问，首先是怎样部署一个好看的博客页面，其次是怎样让它在网络上公开呈现——前者使用博客框架，后者则是依靠服务器和域名。<p style="text-indent:2em">Hexo就是一个基于node.js的快速生成静态博客的开源框架，支持 Markdown和大多数Octopress插件，拥有数百个主题模板方便下载和更换。这样就不用自己一条一条写代码去设计网页，也能够拥有美观的博客界面。<p style="text-indent:2em">而GitHub是一个面向开源及私有软件项目的托管平台。用户可以通过Git等版本控制工具将自己的Hexo博客网页部署到GitHub上，然后通过GitHub提供的静态网站托管服务——也就是GitHub Pages直接部署到GitHub所提供的服务器上，以实现网站的发布和访问。<p style="text-indent:2em">GitHub Pages的域名是以“username.github.io”的形式提供的，其中“username”是你的GitHub用户名。只要仓库中包含一个名为“index.html”的文件，就可以通过“username.github.io”访问你的网站。<p style="text-indent:2em">像这样Github+HEXO部署的博客网页，既能免费获取GitHub提供的服务器资源，又能在GitHub上进行版本控制，非常方便。<p style="text-indent:2em">接下来，本文正文将从环境准备部分的开始讲解。<h1 id="一、环境准备"><a href="#一、环境准备" class="headerlink" title="一、环境准备"></a>一、环境准备</h1><h2 id="安装git"><a href="#安装git" class="headerlink" title="安装git"></a>安装git</h2><p>进入<a href="https://git-scm.com/">git</a>官网，点击<strong>Downloads</strong>下载。<br><img src="/img/bs001.png"><br>选择系统类型，例如<strong>Windows</strong>、64位系统<br><img src="/img/bs002.png"><br><img src="/img/bs003.png"><br>之后会跳出下载界面，下载完成后在文件夹中运行exe文件<br><img src="/img/bs004.png"><br>安装设置除以下选项，其他保持默认即可。<br><img src="https://pic3.zhimg.com/v2-3dcca92f4b2ab2a909e773c75d55bb9e_r.jpg"><br>安装完成后，任意文件夹点击右键出现<strong>Git GUI Here</strong>和<strong>Git Bash Here</strong>即成功。<br><img src="/img/bs007.png"><br>打开<strong>Git Bash Here</strong><br><img src="/img/bs005.png"><br>输入git，回车，得到下图<br><img src="/img/bs006.png"><br>确认git安装完成！</p><h2 id="安装node-js"><a href="#安装node-js" class="headerlink" title="安装node.js"></a>安装node.js</h2><p>（持续更新中）</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>建站记录</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>github</tag>
+      
+      <tag>hexo</tag>
+      
+      <tag>git</tag>
+      
+      <tag>nodejs</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>阅读注意事项及更新日志</title>
     <link href="/posts/3826034949.html"/>
     <url>/posts/3826034949.html</url>
     
     <content type="html"><![CDATA[<h1 id="阅读注意事项"><a href="#阅读注意事项" class="headerlink" title="阅读注意事项"></a>阅读注意事项</h1><p>1、年更博主，今年预计更新3篇原创（不包括隐藏），敬请期待！<br>（更多关于博主的信息参见“关于”页！）<br>2、本博客隐藏文章仅友人可见，请勿公开传播:D</p><h1 id="已配置功能"><a href="#已配置功能" class="headerlink" title="已配置功能"></a>已配置功能</h1><p class="note note-success">更新于2023年3月22日</p><div>            <input type="checkbox" disabled checked="checked">文章链接优化插件          </div><div>            <input type="checkbox" disabled checked="checked">博客访问量统计          </div><div>            <input type="checkbox" disabled checked="checked">文章浏览量统计          </div><p class="note note-success">更新于2023年3月21日</p><div>            <input type="checkbox" disabled checked="checked">关于页设置          </div><div>            <input type="checkbox" disabled checked="checked">文章评论区功能          </div><h1 id="待配置功能"><a href="#待配置功能" class="headerlink" title="待配置功能"></a>待配置功能</h1><div>            <input type="checkbox" disabled >留言页设置          </div><div>            <input type="checkbox" disabled >赞赏页设置          </div><div>            <input type="checkbox" disabled >页脚版权信息设置          </div><div>            <input type="checkbox" disabled >……          </div>]]></content>
     
+    
+    <categories>
+      
+      <category>建站记录</category>
+      
+    </categories>
     
     
   </entry>
